@@ -20,6 +20,7 @@ export class AdminComponent implements OnInit {
 
   ngOnInit(): void {
     console.log("hello");
+    console.log("this is a test");
     this.getUsers();
   }
 
