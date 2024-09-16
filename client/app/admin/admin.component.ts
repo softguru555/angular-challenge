@@ -19,6 +19,7 @@ export class AdminComponent implements OnInit {
               private userService: UserService) { }
 
   ngOnInit(): void {
+    console.log("hello");
     this.getUsers();
   }
 
